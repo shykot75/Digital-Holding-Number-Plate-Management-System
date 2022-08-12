@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Bengali', serif !important;
+}
+
+
+/*****   LOGIN PAGE STARTS   *****/
+.writing-side {
+    float: left;
+}
+
+.login-side {
+    overflow: hidden;
+    padding: 60px 25px 20px 25px;
+}
+
+.writing-side .logo-headline{
+    background: #CCCCCC;
+    padding: 30px 20px 80px 20px;
+    min-height: 200px;
+}
+.writing-side .logo-headline span {
+    overflow: hidden;
+    margin: 6px 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0000E3;
+    vertical-align: center;
+}
+
+.writing-side .meyor-lekha{
+    background: #008000;
+    padding: 30px 20px 40px 20px;
+    min-height: 200px;
+}
+
+.writing-side .meyor-lekha span {
+    overflow: hidden;
+    margin: 6px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: justify !important;
+    line-height: 1.8em;
+}
+
+.login-side .welcome {
+    margin-top: 50px;
+    text-align: center;
+
+}
+.login-side .welcome h3 {
+    color: #008000;
+    font-weight: 700;
+}
+.login-side .welcome p {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.login-side .login-form {
+    margin-top: 20px
+}
+
+.login-side .copyright {
+    margin-top: 50px;
+    text-align: center;
+}
+/*****   LOGIN PAGE ENDS     *****/
+
+/*****   Menu Color Background Change   *****/
+body[data-sidebar=dark] .mm-active .active {
+    color: #FFF!important;
+    background: #00ACAC;
+}
+/*****  Menu Color Background Change     *****/
+
+
+
+/*****      ADD Tax Blade Starts    *****/
+.tax-add span,
+.tax-add label,
+.tax-add input {
+    font-weight: 700;
+}
+.tax-add h2,
+.tax-add h3,
+.tax-add h4,
+.tax-add h5{
+    border-radius: 4px;
+}
+/*****      ADD Tax Blade Ends  *****/
+
+
+
+
+/*****  Manage Tax Blade Starts     *****/
+.taxpay-manage table{
+    background: #F5F5F8;
+
+}
+.taxpay-manage table thead {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.taxpay-manage table thead tr {
+    background: #556EE6;
+}
+.taxpay-manage .dataTables_length {
+    margin-right: 20px;
+}
+
+.taxpay-manage table tbody {
+    color: #2f3542;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.taxpay-manage table.dataTable tbody>tr.selected {
+    color: black;
+    background: #00b9ff4f;
+}
+
+.taxpay-manage span,
+.taxpay-manage i {
+    font-weight: 800;
+    font-size: 20px;
+}
+/*****  Manage Tax Blade Ends   *****/
+
+
+
+
+/*****      QR-details Blade Starts     *****/
+.qr-details {
+    background: #FFFFFF;
+    font-family: 'Noto Serif Bengali', serif !important;
+    border: 1px solid #000000;
+
+}
+.qr-details h3, .show-details h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.qr-details th, .show-details th {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.qr-details td, .show-details td {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+}
+/*****  QR-details Blade Ends   *****/
+
+
+
+
+/*****  Show-Details Blade Starts    *****/
+.show-details {
+    background: #FFFFFF;
+    font-family: 'Noto Serif Bengali', serif !important;
+}
+
+.show-details td {
+    padding-left: 60px;
+}
+/*****  Show-Details Blade Ends     *****/
+
+
+
+
+/***** Search Taxpayer Starts *****/
+.tax-search .search-border-1 {
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.tax-search .search-border-2 {
+    border: 1px solid #000;
+    border-top: none;
+}
+/***** Search Taxpayer Ends *****/
